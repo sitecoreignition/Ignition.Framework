@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Web.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Ignition.Project.CompositionRoot.DependencyInjection
+namespace Ignition.Framework.CompositionRoot.DependencyInjection
 {
 	public static class ServiceCollectionExtensions
 	{

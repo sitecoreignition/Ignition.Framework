@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Ignition.Foundation.Core;
-using Ignition.Project.CompositionRoot.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 using Sitecore.DependencyInjection;
 

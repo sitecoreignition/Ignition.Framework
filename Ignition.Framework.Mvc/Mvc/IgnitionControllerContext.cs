@@ -1,4 +1,6 @@
-﻿namespace Ignition.Framework.Mvc.Mvc
+﻿using System.Web.Mvc;
+
+namespace Ignition.Framework.Mvc.Mvc
 {
 	public class IgnitionControllerContext : ControllerContext
 	{
