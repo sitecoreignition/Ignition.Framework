@@ -27,25 +27,27 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ignition.Framework.Logging"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ignition.Framework.Data", "Ignition.Framework.Data\Ignition.Framework.Data.csproj", "{B395CFEC-F9C9-4FA4-A2FB-5BAACDC36806}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ignition.Foundation.Mvc.Sitecore", "Ignition.Foundation.Mvc.Sitecore\Ignition.Foundation.Mvc.Sitecore.csproj", "{16EE3A04-5709-4AA0-8B11-3ADF88562636}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ignition.Foundation.Mvc.Sitecore", "Ignition.Foundation.Mvc.Sitecore\Ignition.Foundation.Mvc.Sitecore.csproj", "{16EE3A04-5709-4AA0-8B11-3ADF88562636}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ignition.Foundation.AppInsights", "Ignition.Foundation.AppInsights\Ignition.Foundation.AppInsights.csproj", "{150C5799-C509-41A5-8483-798FD930E6BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ignition.Foundation.AppInsights", "Ignition.Foundation.AppInsights\Ignition.Foundation.AppInsights.csproj", "{150C5799-C509-41A5-8483-798FD930E6BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ignition.Foundation.Authentication", "Ignition.Foundation.Authentication\Ignition.Foundation.Authentication.csproj", "{17025AFA-1E15-46A6-B892-1D01F3A0B171}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ignition.Foundation.Authentication", "Ignition.Foundation.Authentication\Ignition.Foundation.Authentication.csproj", "{17025AFA-1E15-46A6-B892-1D01F3A0B171}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ignition.Framework.Security", "Ignition.Framework.Security\Ignition.Framework.Security.csproj", "{A86796F7-268F-4C2F-8261-8F9504A98922}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ignition.Framework.Security", "Ignition.Framework.Security\Ignition.Framework.Security.csproj", "{A86796F7-268F-4C2F-8261-8F9504A98922}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ignition.Framework.Configuration", "Ignition.Framework.Configuration\Ignition.Framework.Configuration.csproj", "{24AE3142-A14F-4FDD-A55A-DD0BDA9E28AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ignition.Framework.Configuration", "Ignition.Framework.Configuration\Ignition.Framework.Configuration.csproj", "{24AE3142-A14F-4FDD-A55A-DD0BDA9E28AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ignition.Framework.Search", "Ignition.Framework.Search\Ignition.Framework.Search.csproj", "{3DCF63DE-A382-4DE9-ACC4-2DC7CDE5ECF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ignition.Framework.Search", "Ignition.Framework.Search\Ignition.Framework.Search.csproj", "{3DCF63DE-A382-4DE9-ACC4-2DC7CDE5ECF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ignition.Framework.Caching", "Ignition.Framework.Caching\Ignition.Framework.Caching.csproj", "{AB511129-435D-427B-86DB-6540620F040A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ignition.Framework.Caching", "Ignition.Framework.Caching\Ignition.Framework.Caching.csproj", "{AB511129-435D-427B-86DB-6540620F040A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ignition.Foundation.Sitecore.Sxa", "Ignition.Foundation.Sitecore.Sxa\Ignition.Foundation.Sitecore.Sxa.csproj", "{4A22AD05-4984-464F-85FB-BDF6B25B560C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ignition.Feature.Components.Common", "Ignition.Feature.Components.Common\Ignition.Feature.Components.Common.csproj", "{DFF015DD-9FA3-4953-9C97-98DDCEC9859E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ignition.Foundation.Data", "Ignition.Foundation.Data\Ignition.Foundation.Data.csproj", "{FD87906A-77D4-420C-B07A-4F04E34E676F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ignition.Foundation.Data", "Ignition.Foundation.Data\Ignition.Foundation.Data.csproj", "{FD87906A-77D4-420C-B07A-4F04E34E676F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Test", "5-Test", "{358A797A-426F-442D-A178-D4A87CCD47AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
