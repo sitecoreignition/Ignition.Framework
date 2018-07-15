@@ -4,8 +4,4 @@
     <TargetFramework>net462</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="DatabaseTypes\" />
-  </ItemGroup>
-
 </Project>

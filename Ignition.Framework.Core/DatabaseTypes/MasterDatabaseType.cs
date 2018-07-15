@@ -2,9 +2,6 @@
 {
 	public sealed class MasterDatabaseType : IDatabaseType
 	{
-		public string GetDatabaseName()
-		{
-			return "master";
-		}
+		public string GetDatabaseName() => "master";
 	}
 }

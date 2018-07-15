@@ -2,9 +2,6 @@
 {
 	public sealed class WebDatabaseType : IDatabaseType
 	{
-		public string GetDatabaseName()
-		{
-			return "web";
-		}
+		public string GetDatabaseName() => "web";
 	}
 }

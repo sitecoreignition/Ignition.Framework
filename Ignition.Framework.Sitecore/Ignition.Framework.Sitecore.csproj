@@ -4,4 +4,8 @@
     <TargetFramework>net462</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Sitecore.Kernel.NoReferences" Version="9.0.180604" />
+  </ItemGroup>
+
 </Project>

@@ -6,28 +6,28 @@ namespace Ignition.Foundation.Mvc.Sitecore.ViewEngines
 {
 	public class ExperienceEditorViewEngine : IViewEngine
 	{
-		private readonly RazorViewEngine _viewEngine;
+	    private RazorViewEngine ViewEngine { get; }
 
-		public ExperienceEditorViewEngine(RazorViewEngine viewEngine)
+	    public ExperienceEditorViewEngine(RazorViewEngine viewEngine)
 		{
-			_viewEngine = viewEngine;
+			ViewEngine = viewEngine;
 		}
 
 		public ViewEngineResult FindPartialView(ControllerContext controllerContext, string partialViewName, bool useCache)
 		{
 			return !IsExperienceEditorMode() ? NullViewEngineResult() :
-			  _viewEngine.FindPartialView(controllerContext, GetExperienceEditorViewName(partialViewName), false);
+			  ViewEngine.FindPartialView(controllerContext, GetExperienceEditorViewName(partialViewName), false);
 		}
 
 		public ViewEngineResult FindView(ControllerContext controllerContext, string viewName, string masterName, bool useCache)
 		{
 			return !IsExperienceEditorMode() ? NullViewEngineResult() :
-			  _viewEngine.FindView(controllerContext, GetExperienceEditorViewName(viewName), masterName, false);
+			  ViewEngine.FindView(controllerContext, GetExperienceEditorViewName(viewName), masterName, false);
 		}
 
 		public void ReleaseView(ControllerContext controllerContext, IView view)
 		{
-			_viewEngine.ReleaseView(controllerContext, view);
+			ViewEngine.ReleaseView(controllerContext, view);
 		}
 
 		private static bool IsExperienceEditorMode()

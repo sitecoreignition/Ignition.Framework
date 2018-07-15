@@ -1,15 +1,16 @@
-﻿namespace Ignition.Framework.Sitecore
+﻿using Platform = Sitecore;
+namespace Ignition.Framework.Sitecore
 {
 	public class SitecoreSettingsFactory : ISitecoreSettingsFactory
 	{
 		public string GetSitecoreSetting(string key)
 		{
-			return Sitecore.Configuration.Settings.GetSetting(key);
+			return Platform.Configuration.Settings.GetSetting(key);
 		}
 
 		public string GetSitecoreSetting(string key, string arg)
 		{
-			return Sitecore.Configuration.Settings.GetSetting(key, arg);
+			return Platform.Configuration.Settings.GetSetting(key, arg);
 		}
 	}
 }
